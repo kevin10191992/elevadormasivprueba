@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Elevador", "Elevador.csproj", "{2B7A5438-EF48-498C-B527-CBD5A63A6DD8}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{3F731230-0F67-4EEA-8729-CD11E91CADA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatorTest", "..\ElevatorTest\ElevatorTest.csproj", "{186A4B80-B81E-4DA7-B3C5-EFF2844E032C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B7A5438-EF48-498C-B527-CBD5A63A6DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B7A5438-EF48-498C-B527-CBD5A63A6DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B7A5438-EF48-498C-B527-CBD5A63A6DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B7A5438-EF48-498C-B527-CBD5A63A6DD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F731230-0F67-4EEA-8729-CD11E91CADA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F731230-0F67-4EEA-8729-CD11E91CADA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F731230-0F67-4EEA-8729-CD11E91CADA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F731230-0F67-4EEA-8729-CD11E91CADA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{186A4B80-B81E-4DA7-B3C5-EFF2844E032C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{186A4B80-B81E-4DA7-B3C5-EFF2844E032C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{186A4B80-B81E-4DA7-B3C5-EFF2844E032C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{186A4B80-B81E-4DA7-B3C5-EFF2844E032C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37917206-7A62-42C6-9B42-67EDD866E25E}
+	EndGlobalSection
+EndGlobal
